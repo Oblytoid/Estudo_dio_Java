@@ -1,10 +1,10 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-
         //tipos de variaveis na linguagem java
 
         //primitivos int, byte , short ,long , float , double , boolean e char
+        //string para texto
+        String meuNome = "Cauan Nogueira ";
         // esses tipo de  variaveis não são consideradas objetos
         // são parecido com a linguagem C/C++
 
@@ -15,8 +15,11 @@ public class TiposVariaveis {
         System.out.println(pi);// ex
         System.out.println(cachorro);//ex 2
 
-        //final para 'transformar' uma variavel em uma constante
+        //final para 'declarar uma variavel como constante constante
         //sempre declarar uma variavel constante em caixa altas
+        System.out.println(meuNome + "é lindo");
+        final double PI = 3.14;
+        System.out.println(PI);
 
     }
 }
